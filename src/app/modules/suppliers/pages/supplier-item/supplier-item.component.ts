@@ -7,8 +7,8 @@ import { Attribute } from "../../resources/attribute.resource";
 
 @Component({
   selector: "app-supplier",
-  templateUrl: "./supplier.component.html",
-  styleUrls: ["./supplier.component.css"]
+  templateUrl: "./supplier-item.component.html",
+  styleUrls: ["./supplier-item.component.css"]
 })
 export class SupplierComponent implements OnInit {
   constructor(
