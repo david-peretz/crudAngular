@@ -9,10 +9,11 @@ const routes: Routes = [
   },
   {
     path: "suppliers",
-    loadChildren: () =>
-      import("./modules/suppliers/suppliers.module").then(
-        m => m.SuppliersModule
-      )
+    loadChildren: './modules/suppliers/suppliers.module#SuppliersModule',
+    // loadChildren: () =>
+    //   import("./modules/suppliers/suppliers.module").then(
+    //     m => m.SuppliersModule
+    //   )
   }
 ];
 
