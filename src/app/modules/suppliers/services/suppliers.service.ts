@@ -1,6 +1,6 @@
 import { ResourceService } from "src/app/core/services/generic/resource.service";
 import { HttpClient } from "@angular/common/http";
-import { Supplier } from "../resources/supplier.resource";
+import { Supplier } from "../interfaces/supplier.resource";
 import { Injectable } from "@angular/core";
 import { Serializer } from "src/app/core/services/generic/serializer";
 

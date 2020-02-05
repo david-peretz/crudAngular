@@ -2,15 +2,15 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 import { SuppliersService } from "../../services/suppliers.service";
 import { AttributesService } from "../../services/attributes.service";
-import { Supplier } from "../../resources/supplier.resource";
-import { Attribute } from "../../resources/attribute.resource";
+import { Supplier } from "../../interfaces/supplier.resource";
+import { Attribute } from "../../interfaces/attribute.resource";
 
 @Component({
-  selector: "app-supplier",
-  templateUrl: "./supplier-item.component.html",
-  styleUrls: ["./supplier-item.component.css"]
+  selector: "app-entity",
+  templateUrl: "./entity-detail.component.html",
+  styleUrls: ["./entity-detail.component.css"]
 })
-export class SupplierComponent implements OnInit {
+export class EntityDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,

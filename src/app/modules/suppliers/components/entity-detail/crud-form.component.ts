@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, EventEmitter, Output } from "@angular/core";
-import { Supplier } from "../../resources/supplier.resource";
-import { Attribute } from "../../resources/attribute.resource";
+import { Supplier } from "../../interfaces/supplier.resource";
+import { Attribute } from "../../interfaces/attribute.resource";
 
 @Component({
   selector: "crud-form",
